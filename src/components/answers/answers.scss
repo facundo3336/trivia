@@ -1,0 +1,51 @@
+.answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+
+  .answer {
+    border: 2px solid rgb(54, 140, 237);
+    display: flex;
+
+    &:hover {
+      cursor: pointer;
+
+      .answerLetter {
+        background-color: rgb(39, 120, 211);
+      }
+    }
+  }
+
+  .answerLetter {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(87, 157, 237);
+  }
+
+  .answerText {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-weight: 500;
+  }
+
+  .selected {
+    border-color: rgb(225, 101, 19);
+
+    .answerLetter {
+      background-color: rgb(225, 101, 19);
+    }
+
+    &:hover {
+      .answerLetter {
+        background-color: rgb(225, 101, 19);
+      }
+    }
+  }
+}

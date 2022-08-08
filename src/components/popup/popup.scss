@@ -1,0 +1,36 @@
+.popup {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  min-height: 100vh;
+  background-color: rgba(186, 181, 184, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .popupContent {
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .popupText {
+    padding: 30px 200px;
+    text-align: center;
+    font-size: 1.05rem;
+
+    p {
+      margin: 4px 0 40px 0;
+    }
+  }
+
+  .congratulationPopupContainer {
+    background-color: rgb(39, 120, 211);
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 20px 0;
+    text-align: center;
+  }
+}

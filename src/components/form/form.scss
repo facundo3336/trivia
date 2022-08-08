@@ -1,0 +1,45 @@
+.editPageInputsContainer {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 1px solid rgb(160, 197, 240);
+  padding-left: 40px;
+
+  h1 {
+    margin: 0 0 10px 0;
+    font-size: 1.3rem;
+  }
+}
+
+.editPageInputContainer {
+  margin: 5px 0;
+  width: 60%;
+
+  input {
+    display: block;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid rgb(148, 191, 240);
+    margin: 8px 0;
+    width: 100%;
+  }
+}
+
+.editPageLabelsInputsContainerFlex {
+  display: flex;
+  justify-content: center;
+}
+
+.editPageLabelContainer {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 0 17px 0;
+
+  label {
+    margin-right: 10px;
+    font-size: 0.95rem;
+  }
+}

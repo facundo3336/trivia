@@ -1,0 +1,70 @@
+.singleQuestionEditContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid rgb(54, 140, 237);
+  background-color: rgb(235, 241, 249);
+  max-width: 900px;
+  margin: 50px auto;
+
+  h2 {
+    margin: 0;
+  }
+
+  .showRightAnswer {
+    font-size: 1.2rem;
+  }
+
+  .showAnswersContainerEditPage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 30px 0;
+  }
+
+  .showAnswerContainerEditPage {
+    border: 1px solid rgb(54, 140, 237);
+    display: flex;
+    align-items: center;
+    height: 40px;
+
+    padding: 0;
+
+    p {
+      margin: 0;
+      padding-left: 5px;
+      font-size: 0.9rem;
+    }
+
+    span {
+      background-color: rgb(54, 140, 237);
+      color: white;
+      font-size: 1.3rem;
+      height: 40px;
+      width: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .editPageShowQuestionContainer {
+    width: 55%;
+    padding: 20px 30px;
+  }
+
+  .EditPageQuestionButtonsContainer {
+    display: flex;
+    padding-top: 30px;
+
+    .editSingleQuestionButton {
+      font-size: 1.1rem;
+      padding: 10px 50px;
+      width: auto;
+
+      &:first-child {
+        margin-right: 10px;
+      }
+    }
+  }
+}

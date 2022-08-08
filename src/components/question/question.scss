@@ -1,0 +1,21 @@
+.questionContainer {
+  background-color: rgb(87, 157, 237);
+  padding: 20px;
+  text-align: center;
+
+  .numberOfQuestionContainer {
+    background-color: white;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 1.15rem;
+    margin-bottom: 10px;
+  }
+
+  .questionText {
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+}

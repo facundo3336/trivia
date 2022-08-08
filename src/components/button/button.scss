@@ -1,0 +1,24 @@
+.button {
+  padding: 15px 100px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  font-size: 1.4rem;
+  border: 2px solid black;
+
+  &:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
+
+  &.lightBlue {
+    color: rgb(133, 237, 237);
+    background-color: black;
+
+    &:hover {
+      background-color: rgb(133, 237, 237);
+      color: black;
+    }
+  }
+}
