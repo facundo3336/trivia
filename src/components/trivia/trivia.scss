@@ -1,0 +1,34 @@
+.trivia {
+  padding: 30px;
+  position: relative;
+
+  .triviaContainer {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2.4rem;
+  }
+
+  .answers {
+    margin-top: 70px;
+  }
+
+  .nextFinishButton {
+    margin: 70px auto 0 auto;
+  }
+
+  .nextFinishButtonContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .needAnAnswerContainer {
+    text-align: center;
+    color: red;
+    font-size: 1.15rem;
+    margin-top: 30px;
+  }
+}
